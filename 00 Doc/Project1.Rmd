@@ -6,6 +6,28 @@ output: html_document
 
 ## Querying the Data:
 
+The first step in the project was accessing the data. In terms of querying the dataset, we decided to insulate ourselves from any database failure. Once we queried the database, we exported the datasets to a CSV. The following queries are what we ran to gather the data.
+
+```
+#Plot 1
+SELECT  * FROM titanic;
+
+#Plot 2
+SELECT * FROM titanic WHERE sex IS NOT NULL;
+
+#Plot 3
+SELECT * FROM titanic WHERE sex IS NOT NULL;
+
+#Plot 4
+SELECT * FROM titanic WHERE sex IS NOT NULL;
+
+#Plot 5
+SELECT * FROM titanic WHERE sex IS NOT NULL AND age <= 10;
+
+
+
+```
+
 --------------
 
 
