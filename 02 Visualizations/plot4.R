@@ -1,6 +1,6 @@
-png("./../00\ Doc/plot4.png",width=800,height=550,units="px")
+png("./00\ Doc/plot4.png",width=800,height=550,units="px")
 
-df <- read.csv("./../01\ Data/titanic_sex.csv")
+df <- read.csv("./01\ Data/titanic_sex.csv")
 
 require(extrafont)
 ggplot() +
