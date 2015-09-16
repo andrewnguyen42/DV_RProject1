@@ -1,6 +1,4 @@
-png("./00\ Doc/newplot.png",width=800,height=550,units="px")
-
-df <- read.csv("./01\ Data/titanic_sex.csv")
+df <- read.csv("../01\ Data/titanic_sex.csv")
 
 df <- df[df$AGE!='null' ,]
 
@@ -41,5 +39,3 @@ ggplot() +
         position=position_jitter(width=0.3, height=0.3)
 
     )
-dev.off()
-

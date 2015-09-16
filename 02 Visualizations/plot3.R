@@ -1,6 +1,4 @@
-png("./00\ Doc/plot3.png",width=800,height=550,units="px")
-
-df <- read.csv("./01\ Data/titanic_sex.csv")
+df <- read.csv("../01\ Data/titanic_sex.csv")
 
 require(extrafont)
 ggplot() +
@@ -18,5 +16,3 @@ ggplot() +
         position=position_jitter(width=0.3, height=0)
 
     )
-dev.off()
-
